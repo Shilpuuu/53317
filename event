@@ -1,0 +1,51 @@
+    <Html>  
+    <head>   
+    <title>  
+    Registration form
+    </title>  
+    </head>  
+    <body bgcolor="Lightpink">  
+    <br>  
+    <br>  
+    <form>  
+      
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="15"/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+      
+    <label>   
+    Count :  
+    </label>   
+    <select>  
+    <option value="Count">Count</option>  
+    <option value="50">50</option>  
+    <option value="100">100</option>  
+    <option value="150">150</option>  
+    <option value="200">200</option>  
+    </select>  
+      
+    <br>  
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>    
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br> <br>  
+    <label>numberofvehicles</label>
+   <input type="text" name="numberofvehicles" size="20"/>
+   </label>
+     <input type="button" value="Submit"/>  
+    </form>  
+    </body>  
+    </html>      
